@@ -13,8 +13,8 @@ function updateTimer(){
         seconds %= 60
         
         counter[0].textContent = `${days.toString().padStart(2,0)} Days`
-        counter[1].textContent = `${hours.toString().padStart(2,0)} :`
-        counter[2].textContent = `${minutes.toString().padStart(2,0)} :`
+        counter[1].textContent = `${hours.toString().padStart(2,0)}:`
+        counter[2].textContent = `${minutes.toString().padStart(2,0)}:`
         counter[3].textContent = `${seconds.toString().padStart(2,0)}`
     } else {
         const container = document.getElementById("countDown")

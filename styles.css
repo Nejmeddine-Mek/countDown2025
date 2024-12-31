@@ -36,7 +36,7 @@ body{
 #timer{
     display: flex;
     flex-direction: row;
-    gap: 20px
+    gap: 10px
 }
 
 @media (max-width: 500px) {
@@ -47,10 +47,10 @@ body{
     #countDown {
         width: 90vw;
         height: auto;
-        padding: 20px;
+        padding: 10px;
     }
 
     #timer {
-        gap: 10px;
+        gap: 5px;
     }
 }
